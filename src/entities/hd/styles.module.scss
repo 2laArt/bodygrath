@@ -1,0 +1,16 @@
+.table {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  color: #fff;
+  font-size: 13px;
+
+  & > div {
+    display: flex;
+    gap: 10px;
+  }
+  svg {
+    width: 15px;
+    height: 15px;
+  }
+}
